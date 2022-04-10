@@ -1,0 +1,92 @@
+/*     New Styles   -
+ */
+
+.clearfix {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.gifSizer {
+    background-size: cover;
+}
+
+/*  Banner for Portfolio page
+*/
+
+.picturerelativebanner {
+    position: relative;
+    float: left;
+    height: 300px;
+    margin-right: 100px;
+    padding: 0;
+}
+
+.tealbanner {
+    position: absolute;
+    top: 150px;
+    background-color: #4055549f;
+    height: 60px;
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+/*  Contact Page
+ */
+
+.textbox1 {
+    width: 100%;
+    height: 30px;
+    display: block;
+}
+
+
+/* ~~~ _  Media Queries  _ ~~~ */
+/* * USE MUI GRID for Media breaks i.e. xs={12} sm={10} */
+
+/*  ~~~~980px~~~~~~~ */
+
+/* @media screen and (max-width: 980px) {
+    .containerone, .containertwo {
+        width: 768px;
+    }
+    .main-content {
+        width: 100%;
+    }
+    .picturerelativebanner {
+        margin-right: 5%;
+    }
+} */
+
+/*  ~~~~768px~~~~~~~ */
+
+/* @media screen and (max-width: 768px) {
+    .indeximageviewchanges {
+        width: 50%;
+        height: auto;
+    }
+    p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    #portfolioPageViews {
+        width: auto;
+    }
+} */
+
+/*  ~~~~640px~~~~~~~ */
+
+/* @media screen and (max-width: 640px) {
+    .indeximageviewchanges {
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+    p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+} */

@@ -1,0 +1,51 @@
+{
+  "name": "thomas-white-ucf.github.io",
+  "homepage": "https://thomas-white-ucf.github.io",
+  "author": "Thomas White <thomas.white.ucf@gmail.com>",
+  "description": "development portfolio",
+  "main": "src",
+  "repository": "git@github.com:thomas-white-ucf/thomas-white-ucf.github.io.git",
+  "license": "The Unlicense",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
+    "u": "yarn upgrade --latest",
+    "u-i": "yarn upgrade-interactive --latest",
+    "build-debug": "react-scripts build --debug",
+    "build-p": "react-scripts build --profile",
+    "lint": "react-scripts lint",
+    "test": "echo \"Error: >> no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.6.0",
+    "@mui/material": "^5.6.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "gh-pages": "^3.2.3",
+    "yarn-upgrade-all": "^0.7.1"
+  }
+}
