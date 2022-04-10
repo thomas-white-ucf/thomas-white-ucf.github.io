@@ -16,3 +16,5 @@ client/.DS_STORE
 client/node_modules
 client/.module-cache
 client/package-lock.json
+
+yarn-error.log
