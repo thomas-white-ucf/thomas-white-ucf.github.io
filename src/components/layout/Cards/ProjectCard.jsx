@@ -65,7 +65,9 @@ const ProjectCard = () => {
             </CardContent>
             <CardActions>
               <Button size="medium" href={href}>
-                <Box sx={{ backgroundColor: "whitesmoke" }}>{id}</Box>
+                {/* <Box sx={{ backgroundColor: "whitesmoke" }}> */}
+                {id}
+                {/* </Box> */}
               </Button>
             </CardActions>
           </Card>

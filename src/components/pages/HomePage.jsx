@@ -1,4 +1,4 @@
-import { Grid, Typography, Box } from "@mui/material";
+import { Grid, Typography, Box, Paper } from "@mui/material";
 import thomasLogo from "../../assets/images/thomasLogo.jpeg";
 
 const HomePage = () => {
@@ -6,25 +6,22 @@ const HomePage = () => {
     <Grid item xs={12}>
       <Box
         sx={{
-          // display: "flex",
-          // flexWrap: "wrap",
           overFlow: "auto",
           flexDirection: "column",
         }}
       >
-        <Box
+        <Paper
           sx={{
             p: 1,
             m: 1,
+            mx: "auto",
             borderRadius: 2,
-            border: 2,
+            outline: 2,
             backgroundColor: "#556cd6",
-            // maxWidth: "50%",
-            // minWidth: "220px",
-            // display: "flex",
-            display: "inline-flex",
-            // flexWrap: "wrap",
-            // display: "block"
+            justifyContent: "center",
+            display: "flex",
+            flexWrap: "wrap",
+            width: "225px",
           }}
         >
           <img
@@ -33,17 +30,13 @@ const HomePage = () => {
             height="200px"
             width="200px"
           />
-        </Box>
+        </Paper>
         <Box
           sx={{
-            // display: "inline-flex",
             alignContent: "center",
-            // ml: "auto",
-            // border: 1,
             borderRadius: 1,
             background: "whitesmoke",
-            // p: 1,
-            // m: 1,
+            mt: 2,
           }}
         >
           <Box

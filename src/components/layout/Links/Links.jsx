@@ -41,6 +41,7 @@ const Links = () => {
           backgroundColor: "whitesmoke",
         }}
       >
+        
         <Link to={"/portfolio"}>Portfolio</Link>
 
         {/* <Link href="/wallet" passHref>

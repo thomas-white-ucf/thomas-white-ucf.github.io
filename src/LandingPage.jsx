@@ -12,7 +12,6 @@ const LandingPage = () => {
     <Layout>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/portfolio2022" element={<HomePage />} />
         <Route path="portfolio" element={<PortfolioPage />} />
         <Route path="resume" element={<ResumePage />} />
       </Routes>

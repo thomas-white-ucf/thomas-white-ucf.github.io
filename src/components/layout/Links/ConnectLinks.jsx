@@ -4,21 +4,7 @@ import { Box, Button } from "@mui/material";
 const ConnectLinks = () => {
   return (
     <>
-      <Box
-        sx={{
-          mr: 0,
-          ml: "auto",
-          px: 1,
-          border: 2,
-          borderRadius: 2,
-          borderColor: "whitesmoke",
-        }}
-      >
-        {/* <Link href="/contact" passHref>
-          <Typography variant="subtitle2" color="whitesmoke">
-            Contact
-          </Typography>
-        </Link> */}
+      <Box sx={{ p: 1 }}>
         <Button
           href="https://github.com/thomas-white-ucf"
           target="_blank"
@@ -27,16 +13,7 @@ const ConnectLinks = () => {
           GitHub
         </Button>
       </Box>
-      <Box
-        sx={{
-          mr: 0,
-          ml: "auto",
-          px: 1,
-          border: 2,
-          borderRadius: 2,
-          borderColor: "whitesmoke",
-        }}
-      >
+      <Box sx={{ p: 1 }}>
         <Button
           href="https://www.linkedin.com/in/thomas-white-engineering/"
           target="_blank"

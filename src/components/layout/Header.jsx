@@ -51,25 +51,10 @@ const Header = () => {
           // pb:0,
           position: "fixed",
           // zIndex: (theme) => theme.zIndex.drawer + 1,
-          // background: "linear-gradient(#d3d3d3, #5D17FE, #5D17FE, #5D17FE)",
+          background: "linear-gradient( #5D17FE, #5D17FE, #d3d3d3)",
         }}
       >
         <Toolbar>
-          {/* <Grid
-            item
-            xs={12}
-            md={8}
-            lg={6}
-            sx={{
-              flexGrow: 1,
-              flexWrap: "wrap",
-              display: "flex",
-              mx: "auto",
-            }}
-          >
-            <Links />
-          </Grid> */}
-
           <Typography
             variant="h6"
             noWrap
@@ -115,13 +100,6 @@ const Header = () => {
               ))} */}
 
               <MenuItem onClick={handleCloseNavMenu}>
-                {/* <Link
-                  component="button"
-                  variant="body2"
-                  
-                >
-                  Button Link
-                </Link> */}
                 <Links />
               </MenuItem>
             </Menu>
@@ -149,7 +127,7 @@ const Header = () => {
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
-            <Tooltip title="Open settings">
+            <Tooltip title="contact links">
               <IconButton
                 onClick={handleOpenUserMenu}
                 sx={{ p: 1, backgroundColor: "white" }}
@@ -192,9 +170,5 @@ const Header = () => {
 
 export default Header;
 
-// target = "_blank";
-// rel = "noopener noreferrer";
-// target = "_blank";
-// rel = "noopener noreferrer";
 // target = "_blank";
 // rel = "noopener noreferrer";
