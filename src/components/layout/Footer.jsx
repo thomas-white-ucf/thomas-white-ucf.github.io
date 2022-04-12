@@ -1,4 +1,4 @@
-import { Box, Typography, Link } from "@mui/material";
+import { Box, Typography, Link, Divider } from "@mui/material";
 
 const Footer = () => {
   return (
@@ -6,6 +6,8 @@ const Footer = () => {
       <Box
         component="footer"
         sx={{
+          borderColor: "#fff",
+          border: 1,
           mt: "auto",
           backgroundColor: "primary.main",
           "&:hover": {
@@ -14,8 +16,11 @@ const Footer = () => {
           },
         }}
       >
+        {/* <Box sx={{ pt: 1, backgroundColor: "whitesmoke", opacity: 1 }}>
+          <Divider />
+        </Box> */}
         {/* <Typography variant="body2"> */}
-        <Link color="inherit" href="mailto:thomas.white.ucf@gmail.com">
+        <Link color="#fff" href="mailto:thomas.white.ucf@gmail.com">
           <Typography href="mailto:thomas.white.ucf@gmail.com">
             Thomas.white.ucf@gmail.com
           </Typography>{" "}
