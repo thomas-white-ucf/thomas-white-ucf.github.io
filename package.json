@@ -7,6 +7,7 @@
   "repository": "git@github.com:thomas-white-ucf/thomas-white-ucf.github.io.git",
   "license": "The Unlicense",
   "version": "1.0.0",
+  "type": "module",
   "private": false,
   "scripts": {
     "start": "react-scripts start",
