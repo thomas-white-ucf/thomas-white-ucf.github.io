@@ -1,5 +1,7 @@
 build/
 other/
+other/more/
+
 
 .env
 .vscode
