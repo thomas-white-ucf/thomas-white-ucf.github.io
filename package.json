@@ -7,7 +7,6 @@
   "repository": "git@github.com:thomas-white-ucf/thomas-white-ucf.github.io.git",
   "license": "The Unlicense",
   "version": "1.0.0",
-  "type": "module",
   "private": false,
   "scripts": {
     "start": "react-scripts start",
@@ -47,7 +46,7 @@
     ]
   },
   "devDependencies": {
-    "babel-plugin-import": "^1.13.3",
+    "babel-plugin-direct-import": "^1.0.0",
     "eslint": "^8.13.0",
     "gh-pages": "^3.2.3",
     "yarn-upgrade-all": "^0.7.1"
