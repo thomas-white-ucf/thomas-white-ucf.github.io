@@ -3,6 +3,10 @@ other/
 other/more/
 Procfile_copy.js
 
+# https://devcenter.heroku.com/articles/gitignore
+# keep heroku build under 600MB
+log
+temp
 
 .env
 .vscode
