@@ -27,7 +27,7 @@ const HomePage = () => {
           <img
             src={thomasLogo}
             alt="Thomas White"
-            height="200px"
+            // height="200px"
             width="200px"
           />
         </Paper>
