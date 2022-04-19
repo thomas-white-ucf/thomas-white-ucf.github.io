@@ -7,7 +7,7 @@ import PortfolioPage from "./components/pages/PortfolioPage";
 
 //
 
-const LandingPage = () => {
+const RouterComp = () => {
   return (
     <Layout>
       <Routes>
@@ -19,4 +19,4 @@ const LandingPage = () => {
   );
 };
 
-export default LandingPage;
+export default RouterComp;

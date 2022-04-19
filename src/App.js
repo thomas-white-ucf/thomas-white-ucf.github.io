@@ -1,6 +1,6 @@
 import React from "react";
 // , Link
-import LandingPage from "./LandingPage";
+import RouterComp from "./RouterComp";
 
 // import { Routes, Route } from "react-router-dom";
 // import HomePage from "./components/pages/HomePage";
@@ -16,7 +16,7 @@ import LandingPage from "./LandingPage";
 const App = () => {
   return (
     <div className="app">
-      <LandingPage />
+      <RouterComp />
     </div>
   );
 };
