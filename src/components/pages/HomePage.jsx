@@ -33,7 +33,7 @@ const HomePage = () => {
               // height="200px"
               width="200px"
             />
-            <BodyGSAP overFlow="hidden" />
+            {/* <BodyGSAP overFlow="hidden" /> */}
           </div>
         </Paper>
         <Box

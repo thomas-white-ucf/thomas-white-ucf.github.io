@@ -6,7 +6,6 @@ let x = 3
 
 console.log(x)
 
-
 const Layout = ({ children }) => {
   //
 
