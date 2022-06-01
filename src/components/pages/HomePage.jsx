@@ -1,5 +1,7 @@
 import { Grid, Typography, Box, Paper } from "@mui/material";
 import thomasLogo from "../../assets/images/thomasLogo.jpeg";
+//
+import BodyGSAP from "./BodyGSAP";
 
 const HomePage = () => {
   return (
@@ -24,12 +26,15 @@ const HomePage = () => {
             width: "225px",
           }}
         >
-          <img
-            src={thomasLogo}
-            alt="Thomas White"
-            // height="200px"
-            width="200px"
-          />
+          <div>
+            <img
+              src={thomasLogo}
+              alt="Thomas White"
+              // height="200px"
+              width="200px"
+            />
+            <BodyGSAP overFlow="hidden" />
+          </div>
         </Paper>
         <Box
           sx={{

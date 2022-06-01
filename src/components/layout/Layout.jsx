@@ -2,6 +2,11 @@ import { Header, Footer } from "./index";
 import { Grid } from "@mui/material";
 import whiteWaveImage from "../../assets/images/white-waves.png";
 
+let x = 3
+
+console.log(x)
+
+
 const Layout = ({ children }) => {
   //
 
