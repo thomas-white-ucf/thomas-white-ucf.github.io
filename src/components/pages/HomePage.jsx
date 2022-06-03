@@ -1,7 +1,7 @@
 import { Grid, Typography, Box, Paper } from "@mui/material";
 import thomasLogo from "../../assets/images/thomasLogo.jpeg";
 //
-import BodyGSAP from "./BodyGSAP";
+// import BodyGSAP from "./BodyGSAP";
 
 const HomePage = () => {
   return (

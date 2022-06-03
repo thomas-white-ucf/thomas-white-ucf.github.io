@@ -1,7 +1,16 @@
 import * as React from "react";
 // import { Link } from "react-router-dom";
 // ======
-import { AppBar, Toolbar, IconButton, Menu, Typography, Box, Tooltip, MenuItem } from "@mui/material";
+import {
+  AppBar,
+  Toolbar,
+  IconButton,
+  Menu,
+  Typography,
+  Box,
+  Tooltip,
+  MenuItem,
+} from "@mui/material";
 // import Avatar from "@mui/material/Avatar";
 import MenuIcon from "@mui/icons-material/Menu";
 
@@ -23,11 +32,9 @@ const Header = () => {
   const handleOpenUserMenu = (event) => {
     setAnchorElUser(event.currentTarget);
   };
-
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
-
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
   };
@@ -38,10 +45,7 @@ const Header = () => {
     <>
       <AppBar
         sx={{
-          // mb:0,
-          // pb:0,
           position: "fixed",
-          // zIndex: (theme) => theme.zIndex.drawer + 1,
           background: "linear-gradient( #5D17FE, #5D17FE, #d3d3d3)",
         }}
       >
