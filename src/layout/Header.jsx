@@ -5,8 +5,8 @@ import { AppBar, Toolbar, IconButton, Menu, Typography, Box, Tooltip, MenuItem }
 // import Avatar from "@mui/material/Avatar";
 import MenuIcon from "@mui/icons-material/Menu";
 
-import Links from "./Links/Links";
-import ConnectLinks from "./Links/ConnectLinks";
+import Links from "../components/Links/Links";
+import ConnectLinks from "../components/Links/ConnectLinks";
 
 // const pages = ["Home", "Projects", "Resume"];
 // const settings = ["Profile", "Account", "Dashboard", "Logout"];
@@ -42,7 +42,7 @@ const Header = () => {
           // pb:0,
           position: "fixed",
           // zIndex: (theme) => theme.zIndex.drawer + 1,
-          background: "linear-gradient( #5D17FE, #5D17FE, #d3d3d3)",
+          background: "linear-gradient( #151a22, #151a22, #d3d3d3)",
         }}
       >
         <Toolbar>

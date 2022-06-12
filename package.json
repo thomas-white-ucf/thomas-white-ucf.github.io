@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://thomas-white-ucf.github.io",
+  "homepage": "https://thomas-white-ucf.herokuapp.com/",
   "author": "Thomas White <thomas.white.ucf@gmail.com>",
   "description": "development portfolio",
   "main": "src",
@@ -8,6 +8,10 @@
   "license": "The Unlicense",
   "version": "1.0.0",
   "private": false,
+  "keywords": [
+    "heroku",
+    "portfolio"
+  ],
   "scripts": {
     "start": "react-scripts start",
     "dev": "react-scripts start",
@@ -20,18 +24,26 @@
     "u-i": "yarn upgrade-interactive --latest",
     "i-check": "yarn install --check-files",
     "lint": "react-scripts lint",
-    "test": "echo \"Error: >> no test specified\" && exit 1"
+    "test": "echo \"Error: >> no test specified\" && exit 1",
+    "serve": "serve -s build",
+    "add-commit": "git add . && git commit -m 'push this auto commit'"
   },
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
-    "@mui/icons-material": "^5.6.1",
-    "@mui/material": "^5.6.1",
+    "@mui/icons-material": "^5.6.2",
+    "@mui/material": "^5.6.3",
+    "gsap": "^3.10.4",
     "nth-check": "^2.0.1",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "^5.0.0"
+    "react-scripts": "^5.0.1"
+  },
+  "engines": {
+    "node": "16.x",
+    "yarn": "1.x",
+    "npm": "8.x"
   },
   "browserslist": {
     "production": [
@@ -46,9 +58,9 @@
     ]
   },
   "devDependencies": {
-    "babel-plugin-import": "^1.13.3",
-    "eslint": "^8.13.0",
-    "gh-pages": "^3.2.3",
+    "eslint": "^8.14.0",
+    "gh-pages": "^4.0.0",
+    "serve": "^13.0.2",
     "yarn-upgrade-all": "^0.7.1"
   }
 }

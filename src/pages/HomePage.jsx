@@ -1,5 +1,8 @@
 import { Grid, Typography, Box, Paper } from "@mui/material";
-import thomasLogo from "../../assets/images/thomasLogo.jpeg";
+import thomasLogo from "../assets/images/thomasLogo.jpeg";
+//
+// import AddTaskIcon from "@mui/icons-material/AddTask";
+// import BodyGSAP from "./BodyGSAP";
 
 const HomePage = () => {
   return (
@@ -12,30 +15,34 @@ const HomePage = () => {
       >
         <Paper
           sx={{
-            p: 1,
+            // p: 1,
             m: 1,
             mx: "auto",
-            borderRadius: 2,
-            outline: 2,
-            backgroundColor: "#556cd6",
+            borderRadius: 1,
+            // outline: 2,
+            // backgroundColor: "#556cd6",
             justifyContent: "center",
             display: "flex",
             flexWrap: "wrap",
             width: "225px",
           }}
         >
-          <img
-            src={thomasLogo}
-            alt="Thomas White"
-            // height="200px"
-            width="200px"
-          />
+          <Box>
+            {/* <AddTaskIcon /> */}
+            <img
+              src={thomasLogo}
+              alt="Thomas White"
+              // height="200px"
+              width="200px"
+            />
+            {/* <BodyGSAP overFlow="hidden" /> */}
+          </Box>
         </Paper>
         <Box
           sx={{
             alignContent: "center",
             borderRadius: 1,
-            background: "whitesmoke",
+            // background: "whitesmoke",
             mt: 2,
           }}
         >
@@ -51,7 +58,6 @@ const HomePage = () => {
             <Typography variant="h4" gutterBottom>
               Thomas White
             </Typography>
-            <hr />
             <Typography variant="h6" gutterBottom>
               MERN Full Stack Developer
             </Typography>

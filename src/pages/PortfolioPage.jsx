@@ -1,5 +1,5 @@
 import { Box, Grid, Typography } from "@mui/material";
-import ProjectCard from "../layout/Cards/ProjectCard";
+import ProjectCard from "../components/Cards/ProjectCard";
 
 const PortfolioPage = () => {
   //

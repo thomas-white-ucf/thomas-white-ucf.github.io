@@ -1,6 +1,11 @@
 import { Header, Footer } from "./index";
 import { Grid } from "@mui/material";
-import whiteWaveImage from "../../assets/images/white-waves.png";
+// import whiteWaveImage from "../../assets/images/white-waves.png";
+// backgroundImage: `url(${whiteWaveImage})`,
+
+// let x = 3
+
+// console.log(x)
 
 const Layout = ({ children }) => {
   //
@@ -13,7 +18,7 @@ const Layout = ({ children }) => {
           item
           sx={{
             color: "primary.main",
-            backgroundImage: `url(${whiteWaveImage})`,
+            backgroundColor: "#0d1117",
             border: 3,
             borderRadius: 3,
             minWidth: "100%",

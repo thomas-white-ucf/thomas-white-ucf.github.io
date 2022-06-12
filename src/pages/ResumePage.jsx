@@ -1,8 +1,8 @@
 import { Grid, Typography, Box, Divider } from "@mui/material";
 import React from "react";
 
-import newResume from "../../assets/images/resume-3-28-22.png";
-import oldResume from "../../assets/images/resume.png";
+import newResume from "../assets/images/resume-3-28-22.png";
+import oldResume from "../assets/images/resume.png";
 
 const ResumePage = () => {
   return (
@@ -13,7 +13,6 @@ const ResumePage = () => {
       </Box>
 
       <Box
-        
         sx={{
           alignContent: "center",
         }}
