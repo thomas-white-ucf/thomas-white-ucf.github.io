@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { Box } from "@mui/material";
-
 // =
 
 const Links = () => {

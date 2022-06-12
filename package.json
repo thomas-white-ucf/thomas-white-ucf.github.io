@@ -25,7 +25,8 @@
     "i-check": "yarn install --check-files",
     "lint": "react-scripts lint",
     "test": "echo \"Error: >> no test specified\" && exit 1",
-    "serve": "serve -s build"
+    "serve": "serve -s build",
+    "add-commit": "git add . && git commit -m 'push this auto commit'"
   },
   "dependencies": {
     "@emotion/react": "^11.9.0",
@@ -58,7 +59,7 @@
   },
   "devDependencies": {
     "eslint": "^8.14.0",
-    "gh-pages": "^3.2.3",
+    "gh-pages": "^4.0.0",
     "serve": "^13.0.2",
     "yarn-upgrade-all": "^0.7.1"
   }

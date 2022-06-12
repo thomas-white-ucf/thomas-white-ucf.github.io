@@ -1,22 +1,24 @@
 import React from "react";
-// , Link
-import RouterComp from "./RouterComp";
-
-// import { Routes, Route } from "react-router-dom";
-// import HomePage from "./components/pages/HomePage";
-// import ResumePage from "./components/pages/ResumePage";
-// import ProjectDisplayPage from "./components/pages/ProjectDisplayPage";
-// <Routes>
-//   <Route path="/" element={<HomePage />} />
-//   <Route path="portfolio" element={<ProjectDisplayPage />} />
-//   <Route path="resume" element={<ResumePage />} />
-// </Routes>;
-// * ======================
+import { Layout } from "./layout";
+import { Routes, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import ResumePage from "./pages/ResumePage";
+import PortfolioPage from "./pages/PortfolioPage";
+import { BrowserRouter } from "react-router-dom";
+// 
 
 const App = () => {
   return (
     <div className="app">
-      <RouterComp />
+      <BrowserRouter>
+        <Layout>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="portfolio" element={<PortfolioPage />} />
+            <Route path="resume" element={<ResumePage />} />
+          </Routes>
+        </Layout>
+      </BrowserRouter>
     </div>
   );
 };
