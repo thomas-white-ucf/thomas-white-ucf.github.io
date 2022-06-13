@@ -1,0 +1,23 @@
+/* ~ ~~~~~~~  className="zoom-in-out-box" */
+
+.zoom-in-out-box {
+  /* margin: 24px;
+  width: 50px;
+  height: 50px; */
+  /* background: #f500cc; */
+  animation: zoom-in-zoom-out 40s ease infinite;
+  
+  z-index: -10;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}

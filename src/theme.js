@@ -59,6 +59,21 @@ const theme = createTheme({
         },
       },
     },
+    // 
+    MuiPaper: {
+      styleOverrides: {
+        // Name of the slot
+        root: {
+          // Some CSS
+          // fontSize: "1rem",
+          // background: "linear-gradient( #5D17FE, #5D17FE, #d3d3d3)",
+          justifyContent: "center",
+          color: "whitesmoke",
+          p: 2,
+          m: 2,
+        },
+      },
+    },
   },
 });
 
