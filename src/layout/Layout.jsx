@@ -24,8 +24,7 @@ const Layout = ({ children }) => {
             minWidth: "100%",
           }}
         >
-          {/* //! MAIN CONTENT 
-                //!> keep FOOTER is Outside this Grid Item */}
+          {/* //! MAIN CONTENT //!> keep FOOTER is Outside this Grid Item */}
           <Grid
             item
             style={{

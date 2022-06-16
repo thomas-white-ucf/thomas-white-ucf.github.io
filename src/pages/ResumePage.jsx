@@ -13,9 +13,9 @@ const ResumePage = () => {
       </Box>
 
       <Box
-        sx={{
-          alignContent: "center",
-        }}
+      // sx={{
+      //   alignContent: "center",
+      // }}
       >
         <img src={newResume} alt="newResume-Thomas" width="100%" />
 
