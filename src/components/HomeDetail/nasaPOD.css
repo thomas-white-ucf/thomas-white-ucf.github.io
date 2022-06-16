@@ -6,7 +6,7 @@
   height: 50px; */
   /* background: #f500cc; */
   animation: zoom-in-zoom-out 40s ease infinite;
-  
+
   z-index: -10;
 }
 

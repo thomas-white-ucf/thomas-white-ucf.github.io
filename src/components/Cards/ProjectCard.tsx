@@ -1,4 +1,12 @@
-import { Grid, Box, Card, CardActions, CardMedia, CardContent, Button } from "@mui/material";
+import {
+  Grid,
+  Box,
+  Card,
+  CardActions,
+  CardMedia,
+  CardContent,
+  Button,
+} from "@mui/material";
 //
 import myProjects from "../../assets/data/project-data";
 

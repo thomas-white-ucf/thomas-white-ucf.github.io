@@ -1,4 +1,5 @@
 import React from "react";
+// FC-
 import { Layout } from "./layout";
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { ChangeEvent, useState } from "react";
 import {
   AppBar,
   Toolbar,
@@ -18,13 +18,13 @@ import ConnectLinks from "../components/Links/ConnectLinks";
 const Header = () => {
   //
 
-  const [anchorElNav, setAnchorElNav] = useState(null);
-  const [anchorElUser, setAnchorElUser] = useState(null);
+  const [anchorElNav, setAnchorElNav] = useState<any | null>(null);
+  const [anchorElUser, setAnchorElUser] = useState<any | null>(null);
 
-  const handleOpenNavMenu = (event) => {
+  const handleOpenNavMenu = (event: ChangeEvent<HTMLMenuElement>) => {
     setAnchorElNav(event.currentTarget);
   };
-  const handleOpenUserMenu = (event) => {
+  const handleOpenUserMenu = (event: ChangeEvent<HTMLMenuElement>) => {
     setAnchorElUser(event.currentTarget);
   };
   const handleCloseNavMenu = () => {

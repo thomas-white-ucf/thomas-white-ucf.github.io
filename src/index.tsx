@@ -1,10 +1,10 @@
 import React from "react"; // import ReactDOM from "react-dom";
 import { createRoot } from "react-dom/client";
 import { ThemeProvider, CssBaseline } from "@mui/material";
-import theme from "./theme.js";
+import theme from "./styles/theme";
 import App from "./App";
 
-const container = document.getElementById("root");
+const container = document.getElementById("root") as HTMLElement;
 const root = createRoot(container);
 
 //--

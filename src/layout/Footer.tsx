@@ -1,4 +1,5 @@
-import { Box, Typography, Link, Divider } from "@mui/material";
+import { Box, Typography, Link } from "@mui/material";
+// , Divider
 
 const Footer = () => {
   return (
@@ -21,10 +22,7 @@ const Footer = () => {
         </Box> */}
         {/* <Typography variant="body2"> */}
         <Link color="#fff" href="mailto:thomas.white.ucf@gmail.com">
-          <Typography href="mailto:thomas.white.ucf@gmail.com">
-            Thomas.white.ucf@gmail.com
-          </Typography>{" "}
-          {"Copyright © "}
+          <Typography>Thomas.white.ucf@gmail.com</Typography> {"Copyright © "}
           {new Date().getFullYear()}
           {"."}
         </Link>{" "}
