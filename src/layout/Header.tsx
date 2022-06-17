@@ -20,11 +20,12 @@ const Header = () => {
 
   const [anchorElNav, setAnchorElNav] = useState<any | null>(null);
   const [anchorElUser, setAnchorElUser] = useState<any | null>(null);
-
-  const handleOpenNavMenu = (event: ChangeEvent<HTMLMenuElement>) => {
+  // : ChangeEvent<HTMLMenuElement>
+  // : ChangeEvent<HTMLMenuElement>
+  const handleOpenNavMenu = (event: any) => {
     setAnchorElNav(event.currentTarget);
   };
-  const handleOpenUserMenu = (event: ChangeEvent<HTMLMenuElement>) => {
+  const handleOpenUserMenu = (event: any) => {
     setAnchorElUser(event.currentTarget);
   };
   const handleCloseNavMenu = () => {

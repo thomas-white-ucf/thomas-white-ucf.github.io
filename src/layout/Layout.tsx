@@ -6,8 +6,11 @@ import { Grid } from "@mui/material";
 // let x = 3
 
 // console.log(x)
+// interface Props {
+//   children: any;
+// }
 
-const Layout = ({ children }) => {
+const Layout = ({ children }: any) => {
   //
 
   return (
@@ -31,7 +34,7 @@ const Layout = ({ children }) => {
               display: "flex",
               flexDirection: "column",
               minHeight: "100vh",
-              mx: "auto",
+              // mx: "auto",
             }}
           >
             {/* //! - MAIN - - - - - */}
