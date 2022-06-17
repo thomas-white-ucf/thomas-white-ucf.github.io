@@ -1,3 +1,8 @@
+// declare module "*.png" {
+//   const value: any;
+//   export default value;
+// }
+
 import planeForest from "../images/planeForest.jpg";
 import spacePic from "../images/space.jpg";
 import sunTrain from "../images/train.jpg";

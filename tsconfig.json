@@ -19,5 +19,5 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src", "other/BodyGSAP.ts", "other/context", "other/Quokka_TEST.ts", "other/overrides-mui.d.ts", "other/theme.d.ts", "other/react-app-env.d.ts", "other/modules"]
+  "include": ["src", "assets/**/*.ts"]
 }
