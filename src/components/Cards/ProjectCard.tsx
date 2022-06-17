@@ -26,7 +26,7 @@ const ProjectCard = () => {
           flexWrap: "wrap",
           backgroundColor: "palette.info.main",
           // alignContents: "center",
-          justifyContent: "center",
+          // justifyContent: "start",
           mx: "auto",
           p: 1,
           m: 1,
@@ -40,7 +40,7 @@ const ProjectCard = () => {
             key={id}
             sx={{
               mx: "auto",
-              m: 1,
+              m: 4,
               backgroundColor: "#6fdcff",
               maxWidth: "140px",
             }}

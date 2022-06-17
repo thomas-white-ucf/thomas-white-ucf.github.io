@@ -17,7 +17,9 @@ const Links = () => {
             color: "whitesmoke",
           }}
         >
-          <Typography>Home</Typography>
+          <Typography fontWeight={600} fontSize={20}>
+            Home
+          </Typography>
         </Box>
       </Link>
       <Link to={"/portfolio"}>
@@ -31,7 +33,9 @@ const Links = () => {
             color: "whitesmoke",
           }}
         >
-          <Typography>Portfolio</Typography>
+          <Typography fontWeight={600} fontSize={20}>
+            Portfolio
+          </Typography>
         </Box>
       </Link>
       <Link to={"/resume"}>
@@ -45,7 +49,9 @@ const Links = () => {
             color: "whitesmoke",
           }}
         >
-          <Typography>Resume</Typography>
+          <Typography fontWeight={600} fontSize={20}>
+            Resume
+          </Typography>
         </Box>
       </Link>
     </Box>
